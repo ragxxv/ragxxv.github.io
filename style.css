@@ -1,7 +1,10 @@
 body {
     background-image: url("https://files.catbox.moe/0v8ske.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
 }
 h1 {
     font-family: 'Titillium Web', sans-serif;
