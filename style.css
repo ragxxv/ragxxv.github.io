@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://files.catbox.moe/0v8ske.jpg");
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+
+}
+.header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 5em;
+    letter-spacing: 1.5px;
+    padding: 0;
+    margin: 0;
+    color:rgb(255, 255, 255);
+}
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.5cm;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.5cm;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+  
+.column {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.5cm;
+    color: white;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    flex: 33.33%;
+    padding: 5px;
+  }
+<style>
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(247, 149, 217);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: rgb(205, 134, 233);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+</style>
