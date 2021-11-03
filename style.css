@@ -1,10 +1,11 @@
 body {
-    background-image: url("https://files.catbox.moe/jfo1kd.jpg");
-    background-position: 50% 20%;
+    background-color: black;
+    background-image: url("https://images-ext-2.discordapp.net/external/p1v5N1vjiQJjhM_PzFzwtNFHEiTyo-eIrsLhrdUsU6A/https/files.catbox.moe/o4bvcy.gif?width=408&height=408");
+    background-position: 50% -250%;
+    background-size: 300px;
+    background-repeat: no-repeat;
     top: 0; 
     left: 0; 
-    min-width: 100%;
-    min-height: 100%;
 }
 h1 {
     font-family: 'Titillium Web', sans-serif;
