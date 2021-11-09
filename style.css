@@ -2,7 +2,7 @@
 body {
     background-color: black;
     background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2009/11/vector-wallpaper-9.jpg");
-    background-position: center center;
+    background-position: auto;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0; 
