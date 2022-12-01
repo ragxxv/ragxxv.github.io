@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 body {
-    background-image: url("https://media.discordapp.net/attachments/735337252347052105/1047751639152472104/c65a697665f065b1c557e10d58b37e94.jpg");
+    background-image: url("https://media.discordapp.net/attachments/735337252347052105/1047781873398591571/f0d0353e3fadc4b790e252a6638f02e1.jpg");
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -10,7 +10,7 @@ h1 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     letter-spacing: 1.5px;
-    color: black;
+    color: white;
 }
 
 .hvr-overline-from-center:before {
@@ -47,7 +47,7 @@ h2 , h3 {
     font-size: 0.5cm;
     letter-spacing: 1.5px;
     text-align: center;
-    color: black;
+    color: white;
 }
   
 ul {
