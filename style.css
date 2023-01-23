@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     letter-spacing: 1.5px;
     color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .hvr-overline-from-center:before {
