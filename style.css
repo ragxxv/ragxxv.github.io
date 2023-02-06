@@ -3,9 +3,8 @@ body {
     background-image: url("https://media.discordapp.net/attachments/735337252347052105/1066933058432938004/vagabond.panels-14012023-0001.jpg");
     background-position: center center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #7d62bd
 }
 h1 {
     font-family: 'Quicksand', sans-serif;
