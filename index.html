@@ -1,44 +1,94 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#FE9F01">
-    <meta content="My Socials" property="og:title">
-    <meta content='https://media.discordapp.net/attachments/735337252347052105/1118082014269153320/Untitled104_20230613130835.png' property='og:image'>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#FE9F01">
+
+  <meta content="My Socials" property="og:title">
+
+  <meta content='https://media.discordapp.net/attachments/735337252347052105/1118082014269153320/Untitled104_20230613130835.png' property='og:image'>
+
 </head>
+
 <body>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <h1 class="hvr-overline-from-center">Hiya!</h1>
-    <h2>
-        Raghav here.<br>
-    </h2>
-    <h3>
-        Let's keep it minimalist, My socials are:-
-    </h3>
-    <ul>
-        <li>
-          <a href="https://discordapp.com/users/543878863491432611" target="_blank">
-            <i class="fab fa-discord"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/rag__v/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-          </li>
-        <li>
-          <a href="https://github.com/ragxxv" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-            <i class="fab fa-youtube"></i>
-          </a> 
-        </li>
-      </ul>
+  <h1 class="hvr-overline-from-center">Hiya!</h1>
+  <h2>
+    Raghav here.<br>
+  </h2>
+  <h3>
+    My socials are:-
+  </h3>
+
+  <div class="main">
+
+    <div class="navigation">
+
+      <span style="--i:0; --x:-1; --y:0;">
+        <a href="https://www.instagram.com/rag__v/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+      </span>
+
+      <span style="--i:1; --x:1; --y:0;">
+        <a href="https://github.com/ragxxv" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </span>
+
+      <span style="--i:2; --x:0; --y:-1;">
+        <a href="https://discordapp.com/users/543878863491432611" target="_blank">
+          <ion-icon name="logo-discord"></ion-icon>
+        </a>
+      </span>
+
+      <span style="--i:3; --x:0; --y:1;">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </span>
+
+    </div>
+
+    <div class="close">
+
+      <ion-icon name="close-outline"></ion-icon>
+
+    </div>
+
+  </div>
+
+  <h3>
+
+    Click on the box!
+
+  </h3>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    let navigation = document.querySelector('.navigation');
+    let close = document.querySelector('.close');
+    navigation.onclick = function() {
+      navigation.classList.add('active');
+    }
+    close.onclick = function() {
+      navigation.classList.remove('active');
+    }
+  </script>
+
 </body>
+
 </html>
