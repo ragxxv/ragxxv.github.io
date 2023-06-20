@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 h1 {
   font-family: "Quicksand", sans-serif;
