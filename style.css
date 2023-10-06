@@ -12,7 +12,7 @@ h1 {
   text-align: center;
   letter-spacing: 1.5px;
   position: relative;
-  top: -20px;
+  top: 15px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -34,7 +34,7 @@ h2, h3 {
   letter-spacing: 1.5px;
   text-align: center;
   position: relative;
-  top: -15px;
+  top: 20px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
