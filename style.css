@@ -81,7 +81,7 @@ body {
   height: 170px;
 }
 
-.main .navigation {
+.main .navigation, .close {
   position: relative;
 
   width: 40px;
