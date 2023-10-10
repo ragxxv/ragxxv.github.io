@@ -12,19 +12,19 @@ h1 {
   text-align: center;
   letter-spacing: 1.5px;
   position: relative;
-  top: -60px;
+  top: -65px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
-h2, h3 {
+h2 {
   font-family: "Quicksand", sans-serif;
   font-size: 0.5cm;
   letter-spacing: 1.5px;
   text-align: center;
   position: relative;
-  top: -45px;
+  top: -55px;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
