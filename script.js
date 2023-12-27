@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
     socials.style.opacity = 0;
     socials.classList.add('hidden');
 
-    fadeIn(greeting1, 1200, function () {
-        fadeOut(greeting1, 500, function () {
-            fadeIn(greeting2, 1200, function () {
-                fadeOut(greeting2, 500, function () {
+    fadeIn(greeting1, 1400, function () {
+        fadeOut(greeting1, 1400, function () {
+            fadeIn(greeting2, 1400, function () {
+                fadeOut(greeting2, 1400, function () {
                     animateBackgroundColorChange(container, 'black', '#121212', 800);
                 });
             });
